@@ -1,0 +1,27 @@
+These interfaces are uses in Java API to collect and store different date for the programmer to use.  
+
+Each one has different characteristics and can be used for different scenarios.
+
+List: The list interfaces takes a collection and then declares different behaviors and sequence.
+It can be based on position and may contain duplicates.  
+It can have lead to unsupported operation if you don't allow midication and class cast issues if the objects
+are incompatible. 
+
+SET: Set is a collection but can't have duplicates.  The set feature combined with a tree interface
+is great for taking data and sorting it.  
+
+Map: The map Gives unique keys to values.  For example the one I used was to assign a different program 
+atribute to a particular week.  The map interface allows you to retrieve the information later using the
+keys.  So if I wanted to write a program that gives the assigned topic for each week I could use that key.
+
+Queue: The queue interface is for holding elements prior to processing.  Queue is usually first in first out.
+It can use the following: 
+Queue Interface Structure
+Type of Operation	Throws exception	Returns special value
+Insert	add(e)	offer(e)
+Remove	remove()	poll()
+Examine	element()	peek()
+
+Tree: The tree set was one of my favorite to learn.  It is used in conjunction with set interface for storage.
+It creates a faster access and retrievel of the information which is best for large amounts of data.  
+
