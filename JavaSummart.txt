@@ -1,4 +1,4 @@
-These interfaces are uses in Java API to collect and store different date for the programmer to use.  
+These interfaces are uses in Java API to collect and store different data for the programmer to use.  
 
 Each one has different characteristics and can be used for different scenarios.
 
