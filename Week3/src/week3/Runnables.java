@@ -19,3 +19,8 @@ public class Runnables {
     }
     
 }
+//Output Would Be:
+//Inside : main
+//Creating thread...
+//Starting thread...
+//BUILD SUCCESSFUL (total time: 0 seconds)
