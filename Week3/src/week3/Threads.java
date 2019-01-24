@@ -26,4 +26,8 @@ public class Threads {
     System.out.println("Watch me Finish!");
 }
 }
-
+//Output Would Be:
+//Hi main
+//Watch me Finish!
+//Hi Thread-0
+//BUILD SUCCESSFUL (total time: 0 seconds)
