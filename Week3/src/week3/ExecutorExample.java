@@ -55,4 +55,10 @@ public static void main(String[] args) {
         System.out.println("I'm other task! " + name);
     }
 }    
-
+//Output would be:
+//Watch me run now!
+//I'm other task! Before
+//Here I call the task.
+//Get another one : 2
+//I'm other task! After Future Result
+//BUILD SUCCESSFUL (total time: 0 seconds)
