@@ -1,0 +1,9 @@
+HTTP/URL is used to incorporate simple requests using HTTP protocol.  
+
+It is called up using the URL.OpenConnection() then casts the result to HttpUrlConnection.
+
+It is fairly simple to do but you have to add in come catches in order to handle exceptions and wrong URL
+
+This can be using the catch (IOException e) method and then displaying the error message.
+
+Failry straight forward but a great addition to understand. 
