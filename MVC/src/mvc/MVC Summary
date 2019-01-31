@@ -1,0 +1,16 @@
+MVC Stand for Model View Controller
+
+It separates the calculations and data from the interface.  
+The Model is the class that contains the data and the methods needed to use the data. 
+The View is the interface. 
+The Controller coordinates interactions between the Model and View.
+
+In the Example I used, the controller would coordinate the data entered into the view interface and stored 
+in the model side.  The result would be to take the Students information would be 
+taken and then end up in a basic format
+
+ System.out.println("Student: ");
+      System.out.println("Name: " + name);
+      System.out.println("Studnet ID: " + studID);
+
+Student: Adan Hawkins Student ID: 1234567
