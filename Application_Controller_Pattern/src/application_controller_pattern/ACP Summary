@@ -1,0 +1,11 @@
+The Application Controller Pattern or ACP can be used to centralize retrieval and invocation of request-processing components.
+It is a sub pattern that is used within applications to manage various views.  
+The advantage is that it allows you to use and reuse the code to manage the views 
+and should also make it easier to handle extensibility across the application. 
+
+In the example I used my controller to create a gun list array with the ability to 
+add to and take remove guns.  
+In the controller portion I used the HashMap feature to control the handler. 
+
+I struggled with this one at first but once I started to see it comet together
+it all made sense.  I can see the value of using this feature.  
