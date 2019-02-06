@@ -1,0 +1,37 @@
+JSON stands for Java Script Object Notation
+
+It is a syntax for storing and exchanging data
+
+JSON is really handy since you can store, exchange and send Data in JavaScript
+
+In the example I used you can gather information from an end user on the classes
+that they still need to take at BYU-I and the desired grade that they hope to 
+achieve.  You can then print it out to a separate file or store the data in the array.
+The outcome of the program would look something like this based on the users input:
+
+
+
+run:
+Please Enter Your Name: Adam Hawkins
+Please Enter the Course/Courses you still need to take at BYU-I:
+If no other course/s, leave it blank, and hit enter. cit225
+Enter Percent Grade You Hope to Achieve (example 83): 99
+Please Enter the Course/Courses you still need to take at BYU-I:
+If no other course/s, leave it blank, and hit enter. cit360
+Enter Percent Grade You Hope to Achieve (example 83): 88
+Please Enter the Course/Courses you still need to take at BYU-I:
+If no other course/s, leave it blank, and hit enter. cit410
+Enter Percent Grade You Hope to Achieve (example 83): 89
+Please Enter the Course/Courses you still need to take at BYU-I:
+If no other course/s, leave it blank, and hit enter. 
+{"courses":[{"grade":99,"name":"cit225"},{"grade":88,"name":"cit360"},{"grade":89,"name":"cit410"}],"name":"Adam Hawkins"}
+The File was created successfully.
+
+Press enter to finish.
+
+{"courses":[{"grade":99,"name":"cit225"},{"grade":88,"name":"cit360"},{"grade":89,"name":"cit410"}],"name":"Adam Hawkins"}
+Students name is Adam Hawkins
+Course cit225; Percent grade 99
+Course cit360; Percent grade 88
+Course cit410; Percent grade 89
+BUILD SUCCESSFUL (total time: 34 seconds)
