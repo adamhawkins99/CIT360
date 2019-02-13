@@ -1,0 +1,22 @@
+JUnit is a very popular and vary handy testing framework.
+
+It provides a great framework to apply tests of your code as part of your code.  
+
+You can setup the framework to run Junit unit tests as a part of the build process.  
+
+You can then write in functional tests as part of the code.  
+
+I had to import Junit.org in order to get it to work.  
+
+It works to implement TDD or test driven development. 
+
+For JUnit you need both the code and the test code to work. For mine I used the Junit.java 
+then JUnitTest.java.
+
+In mine I used the:
+//assertFalse and assertTrue
+//assertNotNull and assertNull
+//assertSame and assertNotSame
+//assertArrayEquals
+to test some very basic math values. 
+
