@@ -6,64 +6,48 @@
 
 import junit.JUnit;
 import org.junit.After;
-import org.junit.AfterClass;
-import org.junit.Before;
-import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
-
+import org.junit.Before;
 /**
  *
  * @author adam
  */
 public class JUnitTest {
     
-    //assertEquals
-	@Test
-	public void testRectangle() {	
-		JUnit test = new JUnit();
-		int result = test.rectangle(2, 5);
-		int testValue = 10;
-		assertEquals(testValue, result);			
-	}
-	
-	//assertFalse and assertTrue
-	@Test
-	public void testEvenNumber(){
-		JUnit test = new JUnit();
-		int testValue1 = 3;
-		assertFalse(test.isEvenNumber(testValue1));
-		int testValue2 = 4;
-		assertTrue(test.isEvenNumber(testValue2));		
-	}
-	
-	//assertNotNull and assertNull
-    @Test
-    public void testGetNullValue(){
-        JUnit test = new JUnit();
-        String testValue1 = "key1";
-        assertNotNull(test.getValue(testValue1));
-        String testValue2 = "key1";
-        //assertNull(test.getValue(testValue2));
+   JUnit calc;
+       
+    @Before
+    public void before() {
+        calc = new JUnit();
     }
     
-    //assertSame and assertNotSame
+    @After
+    public void after() {
+        calc.clear();
+    }
+  
     @Test
-    public void testGetSameValue(){
-        JUnit test = new JUnit();
-        String testValue1 = "key1";    
-        String testValue2 = "key2";  
-        assertSame(test.getValue(testValue1), test.getValue(testValue1));
-        assertNotSame(test.getValue(testValue1), test.getValue(testValue2));
-    }    
+    public void testAdd() {
+        int result = calc.add(2, 3);
+        int expected = 5; // 2 + 3 = 5
+        assertEquals(expected, result);
+    }
     
-    //assertArrayEquals
     @Test
-    public void testGetTheStringArray() {
-        JUnit test = new JUnit();
-        String[] expectedArray = {"one", "two", "three"};
-        String[] resultArray =  JUnit.stringArray();
-        assertArrayEquals(expectedArray, resultArray);
+    public void testAnsAdd() {
+        calc.add(2,3);
+        int result = calc.ans();
+        int expected = 5; // 2 + 3 = 5
+        assertEquals(expected, result);
+    }
+    
+    @Test
+    public void testSub() {
+        calc.sub(5, 4);
+        int result = calc.ans();
+        int expected = 0; // 5 - 4 = 1
+        assertEquals(expected, result);
     }
     
 }
