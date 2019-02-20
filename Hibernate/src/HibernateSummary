@@ -1,0 +1,11 @@
+Hibernate is awesome, but it was also one of the more challenging ones for me.  Hibernate handles the mapping
+between Java classes and database tables.  I am taking a database class right not so this was 
+really interesting for me.  It was really neat to see how Java works with Microsoft 
+SQL and other databases.  
+Hibernate also work with data query and retrieval facilities.  
+
+In the example I use it takes some very basic student information stored in
+a database and puts it into a simple string form.  
+The configuration was a beast to get setup but I finally got it working.  
+
+This has been one of the tougher ones for me but also rewarding as well.  
