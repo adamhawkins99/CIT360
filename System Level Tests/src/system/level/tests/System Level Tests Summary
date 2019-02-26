@@ -1,0 +1,36 @@
+System testing of software or hardware is testing conducted on a complete, 
+integrated system to evaluate the system's compliance with its specified requirements. 
+System testing falls within the scope of black-box testing, and as such, 
+should require no knowledge of the inner design of the code or logic. 
+System testing is performed on the entire system in the context of a 
+Functional Requirement Specification(s) (FRS) and/or a System Requirement Specification (SRS). 
+System testing tests not only the design, but also the behavior 
+and even the believed expectations of the customer.
+
+Purpose:
+Check that configuration and code is functional
+Ensure that the system’s initial build meets the agreed requirements
+Help to control the project scope
+Confirm that the finished system can support the client’s business
+processes
+Gain client’s approval to release new functionality for general use
+
+Types of testing:
+Graphical user interface testing
+Usability testing
+Software performance testing
+Compatibility testing
+Exception handling
+Load testing
+Volume testing
+Stress testing
+Security testing
+Graphical user interface testing
+Usability testing
+Software performance testing
+Compatibility testing
+Exception handling
+Load testing
+Volume testing
+Stress testing
+Security testing
